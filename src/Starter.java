@@ -5,7 +5,6 @@ public class Starter {
 
     public static void main(String[] args) throws MyException {
         Scanner input = new Scanner(System.in);
-        // comments
         System.out.println("Добро пожаловать в калькулятор (Арабский/Римский)\nПримеры ввода\n1) III + II\n2) 7 * 8 \n3) X / II");
         Calculator calculator = new Calculator();
         for (; ; ) {
